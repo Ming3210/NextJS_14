@@ -6,7 +6,7 @@ async function fetchData() {
   return data;
 }
 
-export default async function page() {
+export default async function Page() {
   let data = await fetchData();
   return (
     <div>
