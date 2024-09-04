@@ -8,7 +8,7 @@ async function getData() {
   return response.data;
 }
 
-export default async function page() {
+export default async function Page() {
   const data = await getData();
 
   return <div></div>;
